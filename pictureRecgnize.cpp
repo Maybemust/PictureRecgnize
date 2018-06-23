@@ -63,18 +63,28 @@ Vec3b dealnet(Vec3b pot)
 	hidelayer1[2] = 2 / (1 + exp(-2 * hidelayer1[2])) - 1;
 
 	//hidelayer2
-	hidelayer2[0] = hidelayer1[0] * lw1[0][0] + hidelayer1[1] * lw1[0][1] + hidelayer1[2] * lw1[0][2] + b2[0];
-	hidelayer2[1] = hidelayer1[0] * lw1[1][0] + hidelayer1[1] * lw1[1][1] + hidelayer1[2] * lw1[1][2] + b2[1];
-	hidelayer2[2] = hidelayer1[0] * lw1[2][0] + hidelayer1[1] * lw1[2][1] + hidelayer1[2] * lw1[2][2] + b2[2];
-	hidelayer2[3] = hidelayer1[0] * lw1[3][0] + hidelayer1[1] * lw1[3][1] + hidelayer1[2] * lw1[3][2] + b2[0];
-	hidelayer2[4] = hidelayer1[0] * lw1[4][0] + hidelayer1[1] * lw1[4][1] + hidelayer1[2] * lw1[4][2] + b2[1];
-	hidelayer2[5] = hidelayer1[0] * lw1[5][0] + hidelayer1[1] * lw1[5][1] + hidelayer1[2] * lw1[5][2] + b2[2];
-	hidelayer2[0] = 2 / (1 + exp(-2 * hidelayer2[0])) - 1;
-	hidelayer2[1] = 2 / (1 + exp(-2 * hidelayer2[1])) - 1;
-	hidelayer2[2] = 2 / (1 + exp(-2 * hidelayer2[2])) - 1;
-	hidelayer2[3] = 2 / (1 + exp(-2 * hidelayer2[3])) - 1;
-	hidelayer2[4] = 2 / (1 + exp(-2 * hidelayer2[4])) - 1;
-	hidelayer2[5] = 2 / (1 + exp(-2 * hidelayer2[5])) - 1;
+	// hidelayer2[0] = hidelayer1[0] * lw1[0][0] + hidelayer1[1] * lw1[0][1] + hidelayer1[2] * lw1[0][2] + b2[0];
+	// hidelayer2[1] = hidelayer1[0] * lw1[1][0] + hidelayer1[1] * lw1[1][1] + hidelayer1[2] * lw1[1][2] + b2[1];
+	// hidelayer2[2] = hidelayer1[0] * lw1[2][0] + hidelayer1[1] * lw1[2][1] + hidelayer1[2] * lw1[2][2] + b2[2];
+	// hidelayer2[3] = hidelayer1[0] * lw1[3][0] + hidelayer1[1] * lw1[3][1] + hidelayer1[2] * lw1[3][2] + b2[0];
+	// hidelayer2[4] = hidelayer1[0] * lw1[4][0] + hidelayer1[1] * lw1[4][1] + hidelayer1[2] * lw1[4][2] + b2[1];
+	// hidelayer2[5] = hidelayer1[0] * lw1[5][0] + hidelayer1[1] * lw1[5][1] + hidelayer1[2] * lw1[5][2] + b2[2];
+	// hidelayer2[0] = 2 / (1 + exp(-2 * hidelayer2[0])) - 1;
+	// hidelayer2[1] = 2 / (1 + exp(-2 * hidelayer2[1])) - 1;
+	// hidelayer2[2] = 2 / (1 + exp(-2 * hidelayer2[2])) - 1;
+	// hidelayer2[3] = 2 / (1 + exp(-2 * hidelayer2[3])) - 1;
+	// hidelayer2[4] = 2 / (1 + exp(-2 * hidelayer2[4])) - 1;
+	// hidelayer2[5] = 2 / (1 + exp(-2 * hidelayer2[5])) - 1;
+	for (int i = 0; i < level2; i++)
+	{
+		hidelayer2[i] = 0;
+		for (int j = 0; j < level1; j++)
+		{
+			hidelayer2[i] += hidelayer1[j] * lw1[i][j];
+		}
+		hidelayer2[i] += b2[i];
+		hidelayer2[i] = 2 / (1 + exp(-2 * hidelayer2[i])) - 1;
+	}
 
 	//hidelayer3
 	for (int i = 0; i < level3; i++)
