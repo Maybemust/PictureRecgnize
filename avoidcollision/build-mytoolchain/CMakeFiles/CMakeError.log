@@ -1,0 +1,152 @@
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags: 
+
+The output was:
+Segmentation fault
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags: -c
+
+The output was:
+Segmentation fault
+
+
+Checking whether the CXX compiler is IAR using "" did not match "IAR .+ Compiler":
+Determining if the CXX compiler works failed with the following output:
+Change Dir: /home/chen/Naoqi/worktree/avoidcollision1/build-mytoolchain/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1070349173/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1070349173.dir/build.make CMakeFiles/cmTryCompileExec1070349173.dir/build
+make[1]: 正在进入目录 `/home/chen/Naoqi/worktree/avoidcollision1/build-mytoolchain/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/chen/Naoqi/worktree/avoidcollision1/build-mytoolchain/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1070349173.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec1070349173.dir/testCXXCompiler.cxx.o -c /home/chen/Naoqi/worktree/avoidcollision1/build-mytoolchain/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+make[1]: *** [CMakeFiles/cmTryCompileExec1070349173.dir/testCXXCompiler.cxx.o] 段错误 (core dumped)
+make[1]:正在离开目录 `/home/chen/Naoqi/worktree/avoidcollision1/build-mytoolchain/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec1070349173/fast] 错误 2
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags: 
+
+The output was:
+Segmentation fault
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags: -c
+
+The output was:
+Segmentation fault
+
+
+Checking whether the CXX compiler is IAR using "" did not match "IAR .+ Compiler":
+Determining if the CXX compiler works failed with the following output:
+Change Dir: /home/chen/Naoqi/worktree/avoidcollision1/build-mytoolchain/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1420205387/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1420205387.dir/build.make CMakeFiles/cmTryCompileExec1420205387.dir/build
+make[1]: 正在进入目录 `/home/chen/Naoqi/worktree/avoidcollision1/build-mytoolchain/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/chen/Naoqi/worktree/avoidcollision1/build-mytoolchain/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1420205387.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec1420205387.dir/testCXXCompiler.cxx.o -c /home/chen/Naoqi/worktree/avoidcollision1/build-mytoolchain/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+make[1]: *** [CMakeFiles/cmTryCompileExec1420205387.dir/testCXXCompiler.cxx.o] 段错误 (core dumped)
+make[1]:正在离开目录 `/home/chen/Naoqi/worktree/avoidcollision1/build-mytoolchain/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec1420205387/fast] 错误 2
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags: 
+
+The output was:
+Segmentation fault
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags: -c
+
+The output was:
+Segmentation fault
+
+
+Checking whether the CXX compiler is IAR using "" did not match "IAR .+ Compiler":
+Determining if the CXX compiler works failed with the following output:
+Change Dir: /home/chen/Naoqi/worktree/avoidcollision1/build-mytoolchain/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3741460376/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3741460376.dir/build.make CMakeFiles/cmTryCompileExec3741460376.dir/build
+make[1]: 正在进入目录 `/home/chen/Naoqi/worktree/avoidcollision1/build-mytoolchain/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/chen/Naoqi/worktree/avoidcollision1/build-mytoolchain/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3741460376.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec3741460376.dir/testCXXCompiler.cxx.o -c /home/chen/Naoqi/worktree/avoidcollision1/build-mytoolchain/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+make[1]: *** [CMakeFiles/cmTryCompileExec3741460376.dir/testCXXCompiler.cxx.o] 段错误 (core dumped)
+make[1]:正在离开目录 `/home/chen/Naoqi/worktree/avoidcollision1/build-mytoolchain/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec3741460376/fast] 错误 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/chen/Naoqi/worktree/avoidcollision1/build-mytoolchain/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3680599677/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3680599677.dir/build.make CMakeFiles/cmTryCompileExec3680599677.dir/build
+make[1]: 正在进入目录 `/home/chen/Naoqi/worktree/avoidcollision1/build-mytoolchain/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/chen/Naoqi/worktree/avoidcollision1/build-mytoolchain/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3680599677.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3680599677.dir/CheckSymbolExists.c.o   -c /home/chen/Naoqi/worktree/avoidcollision1/build-mytoolchain/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec3680599677
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3680599677.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3680599677.dir/CheckSymbolExists.c.o  -o cmTryCompileExec3680599677 -rdynamic 
+CMakeFiles/cmTryCompileExec3680599677.dir/CheckSymbolExists.c.o：在函数‘main’中：
+CheckSymbolExists.c:(.text+0x16)：对‘pthread_create’未定义的引用
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec3680599677] 错误 1
+make[1]:正在离开目录 `/home/chen/Naoqi/worktree/avoidcollision1/build-mytoolchain/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec3680599677/fast] 错误 2
+
+File /home/chen/Naoqi/worktree/avoidcollision1/build-mytoolchain/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/chen/Naoqi/worktree/avoidcollision1/build-mytoolchain/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3886215535/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3886215535.dir/build.make CMakeFiles/cmTryCompileExec3886215535.dir/build
+make[1]: 正在进入目录 `/home/chen/Naoqi/worktree/avoidcollision1/build-mytoolchain/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/chen/Naoqi/worktree/avoidcollision1/build-mytoolchain/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3886215535.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec3886215535.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3886215535
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3886215535.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec3886215535.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3886215535 -rdynamic -lpthreads 
+/usr/bin/ld: 找不到 -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec3886215535] 错误 1
+make[1]:正在离开目录 `/home/chen/Naoqi/worktree/avoidcollision1/build-mytoolchain/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec3886215535/fast] 错误 2
+
+

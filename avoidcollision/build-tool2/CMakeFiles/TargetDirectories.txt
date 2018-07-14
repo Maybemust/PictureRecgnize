@@ -1,0 +1,6 @@
+/home/liyang/worktree2018/avoidcollision/build-tool2/CMakeFiles/install.dir
+/home/liyang/worktree2018/avoidcollision/build-tool2/CMakeFiles/list_install_components.dir
+/home/liyang/worktree2018/avoidcollision/build-tool2/CMakeFiles/install/local.dir
+/home/liyang/worktree2018/avoidcollision/build-tool2/CMakeFiles/rebuild_cache.dir
+/home/liyang/worktree2018/avoidcollision/build-tool2/CMakeFiles/avoidcollision.dir
+/home/liyang/worktree2018/avoidcollision/build-tool2/CMakeFiles/edit_cache.dir

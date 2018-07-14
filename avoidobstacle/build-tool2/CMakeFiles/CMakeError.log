@@ -1,0 +1,385 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/liyang/worktree2018/avoidobstacle/build-tool2/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bc163/fast"
+/usr/bin/make -f CMakeFiles/cmTC_bc163.dir/build.make CMakeFiles/cmTC_bc163.dir/build
+make[1]: Entering directory '/home/liyang/worktree2018/avoidobstacle/build-tool2/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bc163.dir/CheckSymbolExists.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_bc163.dir/CheckSymbolExists.c.o   -c /home/liyang/worktree2018/avoidobstacle/build-tool2/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_bc163
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bc163.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_bc163.dir/CheckSymbolExists.c.o  -o cmTC_bc163 -rdynamic 
+CMakeFiles/cmTC_bc163.dir/CheckSymbolExists.c.o：在函数‘main’中：
+CheckSymbolExists.c:(.text+0x16)：对‘pthread_create’未定义的引用
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_bc163.dir/build.make:97: recipe for target 'cmTC_bc163' failed
+make[1]: *** [cmTC_bc163] Error 1
+make[1]: Leaving directory '/home/liyang/worktree2018/avoidobstacle/build-tool2/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_bc163/fast' failed
+make: *** [cmTC_bc163/fast] Error 2
+
+File /home/liyang/worktree2018/avoidobstacle/build-tool2/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/liyang/worktree2018/avoidobstacle/build-tool2/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d62ae/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d62ae.dir/build.make CMakeFiles/cmTC_d62ae.dir/build
+make[1]: Entering directory '/home/liyang/worktree2018/avoidobstacle/build-tool2/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d62ae.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_d62ae.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_d62ae
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d62ae.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_d62ae.dir/CheckFunctionExists.c.o  -o cmTC_d62ae -rdynamic -lpthreads 
+/usr/bin/ld: 找不到 -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_d62ae.dir/build.make:97: recipe for target 'cmTC_d62ae' failed
+make[1]: *** [cmTC_d62ae] Error 1
+make[1]: Leaving directory '/home/liyang/worktree2018/avoidobstacle/build-tool2/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_d62ae/fast' failed
+make: *** [cmTC_d62ae/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/liyang/worktree2018/avoidobstacle/build-tool2/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5ee7e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5ee7e.dir/build.make CMakeFiles/cmTC_5ee7e.dir/build
+make[1]: Entering directory '/home/liyang/worktree2018/avoidobstacle/build-tool2/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5ee7e.dir/CheckSymbolExists.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_5ee7e.dir/CheckSymbolExists.c.o   -c /home/liyang/worktree2018/avoidobstacle/build-tool2/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_5ee7e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5ee7e.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_5ee7e.dir/CheckSymbolExists.c.o  -o cmTC_5ee7e -rdynamic 
+CMakeFiles/cmTC_5ee7e.dir/CheckSymbolExists.c.o：在函数‘main’中：
+CheckSymbolExists.c:(.text+0x16)：对‘pthread_create’未定义的引用
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_5ee7e.dir/build.make:97: recipe for target 'cmTC_5ee7e' failed
+make[1]: *** [cmTC_5ee7e] Error 1
+make[1]: Leaving directory '/home/liyang/worktree2018/avoidobstacle/build-tool2/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_5ee7e/fast' failed
+make: *** [cmTC_5ee7e/fast] Error 2
+
+File /home/liyang/worktree2018/avoidobstacle/build-tool2/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/liyang/worktree2018/avoidobstacle/build-tool2/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8e6f9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8e6f9.dir/build.make CMakeFiles/cmTC_8e6f9.dir/build
+make[1]: Entering directory '/home/liyang/worktree2018/avoidobstacle/build-tool2/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8e6f9.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_8e6f9.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_8e6f9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8e6f9.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_8e6f9.dir/CheckFunctionExists.c.o  -o cmTC_8e6f9 -rdynamic -lpthreads 
+/usr/bin/ld: 找不到 -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_8e6f9.dir/build.make:97: recipe for target 'cmTC_8e6f9' failed
+make[1]: *** [cmTC_8e6f9] Error 1
+make[1]: Leaving directory '/home/liyang/worktree2018/avoidobstacle/build-tool2/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_8e6f9/fast' failed
+make: *** [cmTC_8e6f9/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/liyang/worktree2018/avoidobstacle/build-tool2/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_74708/fast"
+/usr/bin/make -f CMakeFiles/cmTC_74708.dir/build.make CMakeFiles/cmTC_74708.dir/build
+make[1]: Entering directory '/home/liyang/worktree2018/avoidobstacle/build-tool2/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_74708.dir/CheckSymbolExists.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_74708.dir/CheckSymbolExists.c.o   -c /home/liyang/worktree2018/avoidobstacle/build-tool2/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_74708
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_74708.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_74708.dir/CheckSymbolExists.c.o  -o cmTC_74708 -rdynamic 
+CMakeFiles/cmTC_74708.dir/CheckSymbolExists.c.o：在函数‘main’中：
+CheckSymbolExists.c:(.text+0x16)：对‘pthread_create’未定义的引用
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_74708.dir/build.make:97: recipe for target 'cmTC_74708' failed
+make[1]: *** [cmTC_74708] Error 1
+make[1]: Leaving directory '/home/liyang/worktree2018/avoidobstacle/build-tool2/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_74708/fast' failed
+make: *** [cmTC_74708/fast] Error 2
+
+File /home/liyang/worktree2018/avoidobstacle/build-tool2/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/liyang/worktree2018/avoidobstacle/build-tool2/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_16afe/fast"
+/usr/bin/make -f CMakeFiles/cmTC_16afe.dir/build.make CMakeFiles/cmTC_16afe.dir/build
+make[1]: Entering directory '/home/liyang/worktree2018/avoidobstacle/build-tool2/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_16afe.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_16afe.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_16afe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_16afe.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_16afe.dir/CheckFunctionExists.c.o  -o cmTC_16afe -rdynamic -lpthreads 
+/usr/bin/ld: 找不到 -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_16afe.dir/build.make:97: recipe for target 'cmTC_16afe' failed
+make[1]: *** [cmTC_16afe] Error 1
+make[1]: Leaving directory '/home/liyang/worktree2018/avoidobstacle/build-tool2/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_16afe/fast' failed
+make: *** [cmTC_16afe/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/liyang/worktree2018/avoidobstacle/build-tool2/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7bb3d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7bb3d.dir/build.make CMakeFiles/cmTC_7bb3d.dir/build
+make[1]: Entering directory '/home/liyang/worktree2018/avoidobstacle/build-tool2/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7bb3d.dir/CheckSymbolExists.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_7bb3d.dir/CheckSymbolExists.c.o   -c /home/liyang/worktree2018/avoidobstacle/build-tool2/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_7bb3d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7bb3d.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_7bb3d.dir/CheckSymbolExists.c.o  -o cmTC_7bb3d -rdynamic 
+CMakeFiles/cmTC_7bb3d.dir/CheckSymbolExists.c.o：在函数‘main’中：
+CheckSymbolExists.c:(.text+0x16)：对‘pthread_create’未定义的引用
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_7bb3d.dir/build.make:97: recipe for target 'cmTC_7bb3d' failed
+make[1]: *** [cmTC_7bb3d] Error 1
+make[1]: Leaving directory '/home/liyang/worktree2018/avoidobstacle/build-tool2/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_7bb3d/fast' failed
+make: *** [cmTC_7bb3d/fast] Error 2
+
+File /home/liyang/worktree2018/avoidobstacle/build-tool2/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/liyang/worktree2018/avoidobstacle/build-tool2/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_61df8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_61df8.dir/build.make CMakeFiles/cmTC_61df8.dir/build
+make[1]: Entering directory '/home/liyang/worktree2018/avoidobstacle/build-tool2/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_61df8.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_61df8.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_61df8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_61df8.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_61df8.dir/CheckFunctionExists.c.o  -o cmTC_61df8 -rdynamic -lpthreads 
+/usr/bin/ld: 找不到 -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_61df8.dir/build.make:97: recipe for target 'cmTC_61df8' failed
+make[1]: *** [cmTC_61df8] Error 1
+make[1]: Leaving directory '/home/liyang/worktree2018/avoidobstacle/build-tool2/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_61df8/fast' failed
+make: *** [cmTC_61df8/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/liyang/worktree2018/avoidobstacle/build-tool2/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0490a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0490a.dir/build.make CMakeFiles/cmTC_0490a.dir/build
+make[1]: Entering directory '/home/liyang/worktree2018/avoidobstacle/build-tool2/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0490a.dir/CheckSymbolExists.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_0490a.dir/CheckSymbolExists.c.o   -c /home/liyang/worktree2018/avoidobstacle/build-tool2/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_0490a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0490a.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_0490a.dir/CheckSymbolExists.c.o  -o cmTC_0490a -rdynamic 
+CMakeFiles/cmTC_0490a.dir/CheckSymbolExists.c.o：在函数‘main’中：
+CheckSymbolExists.c:(.text+0x16)：对‘pthread_create’未定义的引用
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_0490a.dir/build.make:97: recipe for target 'cmTC_0490a' failed
+make[1]: *** [cmTC_0490a] Error 1
+make[1]: Leaving directory '/home/liyang/worktree2018/avoidobstacle/build-tool2/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_0490a/fast' failed
+make: *** [cmTC_0490a/fast] Error 2
+
+File /home/liyang/worktree2018/avoidobstacle/build-tool2/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/liyang/worktree2018/avoidobstacle/build-tool2/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_38d45/fast"
+/usr/bin/make -f CMakeFiles/cmTC_38d45.dir/build.make CMakeFiles/cmTC_38d45.dir/build
+make[1]: Entering directory '/home/liyang/worktree2018/avoidobstacle/build-tool2/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_38d45.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_38d45.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_38d45
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_38d45.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_38d45.dir/CheckFunctionExists.c.o  -o cmTC_38d45 -rdynamic -lpthreads 
+/usr/bin/ld: 找不到 -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_38d45.dir/build.make:97: recipe for target 'cmTC_38d45' failed
+make[1]: *** [cmTC_38d45] Error 1
+make[1]: Leaving directory '/home/liyang/worktree2018/avoidobstacle/build-tool2/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_38d45/fast' failed
+make: *** [cmTC_38d45/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/liyang/worktree2018/avoidobstacle/build-tool2/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a6b60/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a6b60.dir/build.make CMakeFiles/cmTC_a6b60.dir/build
+make[1]: Entering directory '/home/liyang/worktree2018/avoidobstacle/build-tool2/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a6b60.dir/CheckSymbolExists.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_a6b60.dir/CheckSymbolExists.c.o   -c /home/liyang/worktree2018/avoidobstacle/build-tool2/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_a6b60
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a6b60.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_a6b60.dir/CheckSymbolExists.c.o  -o cmTC_a6b60 -rdynamic 
+CMakeFiles/cmTC_a6b60.dir/CheckSymbolExists.c.o：在函数‘main’中：
+CheckSymbolExists.c:(.text+0x16)：对‘pthread_create’未定义的引用
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_a6b60.dir/build.make:97: recipe for target 'cmTC_a6b60' failed
+make[1]: *** [cmTC_a6b60] Error 1
+make[1]: Leaving directory '/home/liyang/worktree2018/avoidobstacle/build-tool2/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_a6b60/fast' failed
+make: *** [cmTC_a6b60/fast] Error 2
+
+File /home/liyang/worktree2018/avoidobstacle/build-tool2/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/liyang/worktree2018/avoidobstacle/build-tool2/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_653f0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_653f0.dir/build.make CMakeFiles/cmTC_653f0.dir/build
+make[1]: Entering directory '/home/liyang/worktree2018/avoidobstacle/build-tool2/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_653f0.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_653f0.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_653f0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_653f0.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_653f0.dir/CheckFunctionExists.c.o  -o cmTC_653f0 -rdynamic -lpthreads 
+/usr/bin/ld: 找不到 -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_653f0.dir/build.make:97: recipe for target 'cmTC_653f0' failed
+make[1]: *** [cmTC_653f0] Error 1
+make[1]: Leaving directory '/home/liyang/worktree2018/avoidobstacle/build-tool2/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_653f0/fast' failed
+make: *** [cmTC_653f0/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/liyang/worktree2018/avoidobstacle/build-tool2/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b182d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b182d.dir/build.make CMakeFiles/cmTC_b182d.dir/build
+make[1]: Entering directory '/home/liyang/worktree2018/avoidobstacle/build-tool2/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b182d.dir/CheckSymbolExists.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_b182d.dir/CheckSymbolExists.c.o   -c /home/liyang/worktree2018/avoidobstacle/build-tool2/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_b182d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b182d.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_b182d.dir/CheckSymbolExists.c.o  -o cmTC_b182d -rdynamic 
+CMakeFiles/cmTC_b182d.dir/CheckSymbolExists.c.o：在函数‘main’中：
+CheckSymbolExists.c:(.text+0x16)：对‘pthread_create’未定义的引用
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_b182d.dir/build.make:97: recipe for target 'cmTC_b182d' failed
+make[1]: *** [cmTC_b182d] Error 1
+make[1]: Leaving directory '/home/liyang/worktree2018/avoidobstacle/build-tool2/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_b182d/fast' failed
+make: *** [cmTC_b182d/fast] Error 2
+
+File /home/liyang/worktree2018/avoidobstacle/build-tool2/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/liyang/worktree2018/avoidobstacle/build-tool2/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5960f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5960f.dir/build.make CMakeFiles/cmTC_5960f.dir/build
+make[1]: Entering directory '/home/liyang/worktree2018/avoidobstacle/build-tool2/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5960f.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_5960f.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_5960f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5960f.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_5960f.dir/CheckFunctionExists.c.o  -o cmTC_5960f -rdynamic -lpthreads 
+/usr/bin/ld: 找不到 -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_5960f.dir/build.make:97: recipe for target 'cmTC_5960f' failed
+make[1]: *** [cmTC_5960f] Error 1
+make[1]: Leaving directory '/home/liyang/worktree2018/avoidobstacle/build-tool2/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_5960f/fast' failed
+make: *** [cmTC_5960f/fast] Error 2
+
+
