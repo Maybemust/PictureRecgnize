@@ -9,6 +9,8 @@ set(_srcs
   ycylib2.h
   ycylib2.cpp
   main.cpp
+  wxzSVM.h
+  wxzSVM.cpp
 )
 
 qi_create_bin(avoidobstacle ${_srcs})

@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/liyang/worktree2018/avoidobstacle/avoidcollision.cpp" "/home/liyang/worktree2018/avoidobstacle/build-tool2/CMakeFiles/avoidobstacle.dir/avoidcollision.cpp.o"
   "/home/liyang/worktree2018/avoidobstacle/main.cpp" "/home/liyang/worktree2018/avoidobstacle/build-tool2/CMakeFiles/avoidobstacle.dir/main.cpp.o"
+  "/home/liyang/worktree2018/avoidobstacle/wxzSVM.cpp" "/home/liyang/worktree2018/avoidobstacle/build-tool2/CMakeFiles/avoidobstacle.dir/wxzSVM.cpp.o"
   "/home/liyang/worktree2018/avoidobstacle/ycylib2.cpp" "/home/liyang/worktree2018/avoidobstacle/build-tool2/CMakeFiles/avoidobstacle.dir/ycylib2.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

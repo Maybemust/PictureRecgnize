@@ -14123,8 +14123,12 @@ objectFinder.h
 /home/liyang/worktree2018/avoidobstacle/objectFinder.h
 avoidcollision.h
 /home/liyang/worktree2018/avoidobstacle/avoidcollision.h
+unistd.h
+-
 ycylib2.h
 /home/liyang/worktree2018/avoidobstacle/ycylib2.h
+wxzSVM.h
+/home/liyang/worktree2018/avoidobstacle/wxzSVM.h
 iostream
 -
 string
@@ -14169,6 +14173,14 @@ opencv2/core/core.hpp
 -
 opencv2/imgproc/imgproc.hpp
 -
+
+/home/liyang/worktree2018/avoidobstacle/wxzSVM.cpp
+wxzSVM.h
+/home/liyang/worktree2018/avoidobstacle/wxzSVM.h
+
+/home/liyang/worktree2018/avoidobstacle/wxzSVM.h
+opencv2/opencv.hpp
+/home/liyang/worktree2018/avoidobstacle/opencv2/opencv.hpp
 
 /home/liyang/worktree2018/avoidobstacle/ycylib2.cpp
 ycylib2.h

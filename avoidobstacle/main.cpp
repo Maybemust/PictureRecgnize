@@ -12,7 +12,7 @@ using namespace std;
 int main(int argc, char *argv[])
 {
   int pport = 9559;
-  std::string pip = "10.0.0.2";
+  std::string pip = "10.0.0.1";
   if (argc != 1 && argc != 3 && argc != 5)
   {
     std::cerr << "Wrong number of arguments!" << std::endl;

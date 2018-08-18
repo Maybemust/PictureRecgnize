@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/combine.dir/main.cpp.o  -o sdk/bin/combine -rdynamic /home/liyang/naoqi-sdk-2.1.4.13-linux64/lib/libopencv_world.so /home/liyang/naoqi-sdk-2.1.4.13-linux64/lib/libz.so -Wl,-rpath,/home/liyang/naoqi-sdk-2.1.4.13-linux64/lib: 

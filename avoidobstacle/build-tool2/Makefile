@@ -215,6 +215,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/avoidobstacle.dir/build.make CMakeFiles/avoidobstacle.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+wxzSVM.o: wxzSVM.cpp.o
+
+.PHONY : wxzSVM.o
+
+# target to build an object file
+wxzSVM.cpp.o:
+	$(MAKE) -f CMakeFiles/avoidobstacle.dir/build.make CMakeFiles/avoidobstacle.dir/wxzSVM.cpp.o
+.PHONY : wxzSVM.cpp.o
+
+wxzSVM.i: wxzSVM.cpp.i
+
+.PHONY : wxzSVM.i
+
+# target to preprocess a source file
+wxzSVM.cpp.i:
+	$(MAKE) -f CMakeFiles/avoidobstacle.dir/build.make CMakeFiles/avoidobstacle.dir/wxzSVM.cpp.i
+.PHONY : wxzSVM.cpp.i
+
+wxzSVM.s: wxzSVM.cpp.s
+
+.PHONY : wxzSVM.s
+
+# target to generate assembly for a file
+wxzSVM.cpp.s:
+	$(MAKE) -f CMakeFiles/avoidobstacle.dir/build.make CMakeFiles/avoidobstacle.dir/wxzSVM.cpp.s
+.PHONY : wxzSVM.cpp.s
+
 ycylib2.o: ycylib2.cpp.o
 
 .PHONY : ycylib2.o
@@ -260,6 +287,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... wxzSVM.o"
+	@echo "... wxzSVM.i"
+	@echo "... wxzSVM.s"
 	@echo "... ycylib2.o"
 	@echo "... ycylib2.i"
 	@echo "... ycylib2.s"
